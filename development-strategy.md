@@ -12,7 +12,7 @@ This project is good for those who want to train themselves in making website us
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 Duck Duck Clone Wireframe  
-![wireframe](images/wirefrane_duckduckclone.png)
+![wireframe](Images/wireframe_duck.png)
 
 ## 0. Set-Up
 
@@ -44,7 +44,7 @@ _As a site visitor, I want to know what website I am seeing, to whom (or to whic
 
 ### HTML
 
-* Create header: company logo
+* Create header: company logo and company name
 
 ### CSS
 
@@ -52,7 +52,7 @@ _As a site visitor, I want to know what website I am seeing, to whom (or to whic
 
 ---
 
-## 2. User story: More about the business specialties
+## 2. User story: More about the page
 
 _As a site visitor, I want to know what I can do in this website, what it is for_
 
