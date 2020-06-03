@@ -12,3 +12,46 @@ body{
 }
 
 
+/*-----------------------------------------*/
+/*FOOTER*/
+#main-footer {
+    background-color: #e37151; /*temporary until the background is set later*/
+}
+
+/*Information*/
+#main-footer .container-information {
+    margin: auto;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+#main-footer .information {
+    color: white;
+    width: 700px;
+    text-align: center;
+}
+
+#main-footer h2 {
+    font-size: 44px;
+    line-height: 48px;
+    padding: 0;
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+
+#main-footer p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0.25em 0em;
+}
+
+#main-footer button {
+    padding: 10px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
