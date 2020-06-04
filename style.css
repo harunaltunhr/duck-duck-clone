@@ -2,7 +2,6 @@ body{
     font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
     color: #222;
     line-height: 1.6;
-    overflow: hidden;
     position: relative;
     height: auto;
     min-height: 100%;
@@ -56,6 +55,20 @@ section {
     border-radius: 8px;
 }
 
+.info-images img {
+    height: 100%;
+}
+
+/*Information 1*/
+#info-1 {
+    background-color: #58b792;
+}
+
+/*Information 2*/
+#info-2 {
+    background-color: #f5a339;
+}
+
 /*Information 3*/
 #info-3 {
     background-color: #5f63bd;
@@ -65,4 +78,5 @@ section {
     height: 100%;
     margin-right: 150px;
 }
+
 
