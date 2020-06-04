@@ -12,3 +12,92 @@ body{
 }
 
 
+/*-----------------------------------------*/
+/*Global*/
+
+.info-text, .closing-text {
+    color: white;
+    width: 700px;
+    height: 260px;
+    text-align: center;
+    margin: auto;
+}
+
+.info-text h2, .closing-text h2 {
+    font-size: 44px;
+    line-height: 48px;
+    padding: 0;
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+.info-text p, .closing-text p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0.25em 0em;
+}
+
+.info-text button, .closing-text button {
+    padding: 10px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/*Information CLOSING = FOOTER*/
+footer {
+    height: 100vh;
+}
+
+#closing {
+    background-color: #87cef5;
+}
+
+.closing-container {
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    width: 100%;
+    margin-top: 0;
+    }
+}
+
+.closing-images img {
+    height: 100%;
+    margin-right: 175px;
+}
+
+.closing-nav-bar {
+    width: 100%;
+}
+
+.separator {
+    padding:0 15px;
+    cursor: default;
+  }
+
+.dismiss-search {
+    float: right;
+    font-size: 0.8em;
+    padding: 15px;
+    color: #666;
+    cursor: pointer;
+    width: 20%;
+  }
+
+.dismiss-search ul li {
+    display: inline;
+    list-style: none;
+}
+
+.dismiss-search a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.info-text button:hover, .closing-text button:hover {
+    cursor: pointer;
+}
