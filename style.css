@@ -10,5 +10,44 @@ body{
     margin: 0;
     background-color: #fff;
 }
+.searcharea{
+  width: 100%;
+  display: flex;
+}
+.search-bar {
+display: flex;
+max-width: 665px;
+justify-self: center;
+margin: auto;
 
+}
+.search-field[type=text] {
+  border-radius: 4px;
+  width:45em;
+  height: 2.8em;
+  background-color: #fff;
+  border-radius: 0.5em;
+  border: 1px solid rgba(0,0,0,0.15);
+  padding-left: 1em;
+  padding-top: 1px;
+  margin-right: -40px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.06);
 
+}
+.search-field::placeholder {
+font-size: 1.1em;
+height: 2.545455em;
+z-index: 1;
+position: relative;
+top: -1px;
+}
+.search-button[type=submit] {
+  height: 42px;
+  background-color: transparent;
+  border: none;
+position: absolute;
+}
+.search-button:hover {
+  background-color: #66ad57;
+  color: white;
+}
