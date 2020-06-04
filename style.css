@@ -56,6 +56,16 @@ section {
     border-radius: 8px;
 }
 
+.info-images img {
+    height: 100%;
+}
+
+
+/*Information 1*/
+#info-1 {
+    background-color: #58b792;
+}
+
 /*Information 2*/
 #info-2 {
     background-color: #f5a339;
