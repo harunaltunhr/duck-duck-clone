@@ -12,7 +12,7 @@ This project is good for those who want to train themselves in making website us
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 Duck Duck Clone Wireframe  
-![wireframe](images/wireframe_duck.png)
+![wireframe](Images/wireframe_duck.png)
 
 ## 0. Set-Up
 
@@ -36,7 +36,7 @@ _As a site visitor, I want to know what website I am seeing, to whom (or to whic
 ### Branch(es)
 
 1. Create an issue related to this user story on Github and assign self.
-1. Add a branch named `logo`
+1. Add a branch named `title`
 2. After html and css are done, commit
 3. Adjust `development-strategy.md` for next development, if needed
 4. Push the changes
@@ -44,7 +44,7 @@ _As a site visitor, I want to know what website I am seeing, to whom (or to whic
 
 ### HTML
 
-* Create header: company logo
+* Create header: company logo and company name
 
 ### CSS
 
@@ -52,7 +52,7 @@ _As a site visitor, I want to know what website I am seeing, to whom (or to whic
 
 ---
 
-## 2. User story: More about the business specialties
+## 2. User story: More about the page
 
 _As a site visitor, I want to know what I can do in this website, what it is for_
 
@@ -105,7 +105,7 @@ _As a site visitor, I want to know more about the company other channels and mor
 
 ## 4. User story: More about the business
 
-_As a site visitor, I want to know what the business specialties from this company_
+_As a site visitor, I want to know what the business specialties from this company (duckduckgo)_
 
 > Assigned to `Boam`
 
@@ -120,7 +120,7 @@ _As a site visitor, I want to know what the business specialties from this compa
 
 ### HTML
 
-1. Use section for the content (as shown on the browser) explaining the specialties of this services
+1. Use section for the content (as shown on the browser) explaining the specialties of this services which is a privacy protection
 1. Add button to add DuckDuckGo to browser
 
 ### CSS
@@ -129,16 +129,16 @@ _As a site visitor, I want to know what the business specialties from this compa
 
 ---
 
-## 5. User story: More about the features
+## 5. User story: Interested in the benefit service offered
 
-_As a site visitor, I am interested in their business/services but I want to know more about their services features_
+_As a site visitor, I am interested in this benefit that the company offers, so how should i do?_
 
 > Assigned to `Boam`
 
 ### Branch(es)
 
 1. Create an issue related to this user story on Github and assign self.
-1. Add a brach named `features-boxes`
+1. Add a brach named `instructions`
 2. After html and css are done, commit
 3. Adjust `development-strategy.md` for next development, if needed
 4. Push the changes
@@ -156,14 +156,14 @@ _As a site visitor, I am interested in their business/services but I want to kno
 ---
 ## 6. User story: More information
 
-_As a site visitor, I am interested in their service, I know the features already but I still need more information how they could do that_
+_As a site visitor, I am interested in their service, I know how to get their service but I still need more information about the privacy protection that they mean_
 
 > Assigned to `Yana`
 
 ### Branch(es)
 
 1. Create an issue related to this user story on Github and assign self.
-1. Add a brach named `information`
+1. Add a brach named `info-1-no-data`
 2. After html and css are done, commit
 3. Adjust `development-strategy.md` for next development, if needed
 4. Push the changes
@@ -171,7 +171,9 @@ _As a site visitor, I am interested in their service, I know the features alread
 
 ### HTML
 
-*  Use section to explain how the service of DuckDuckGo work
+1. Use section to explain how the service of DuckDuckGo work: no personal data stored
+1. Add comical image to entertain visitors
+1. Add button to make sure they are able to access this service directly
 
 ### CSS
 
@@ -179,16 +181,16 @@ _As a site visitor, I am interested in their service, I know the features alread
 
 ---
 
-## 7. User story: Visual Content (Image)
+## 7. User story: More Information
 
-_As a site visitor, I can see visually through their image how their service is included privacy protection, no information of client being tracked_
+_As a site visitor, I still want to know more what they can do and I want to see more comical image_
 
 > Assigned to `Yana`
 
 ### Branch(es)
 
 1. Create an issue related to this user story on Github and assign self.
-1. Add a brach named `visual-privacy-protection`
+1. Add a brach named `info-2-no-ads`
 2. After html and css are done, commit
 3. Adjust `development-strategy.md` for next development, if needed
 4. Push the changes
@@ -196,14 +198,72 @@ _As a site visitor, I can see visually through their image how their service is 
 
 ### HTML
 
-* Add the visual content
+1. Use section to explain how the service of DuckDuckGo work: no ads following you
+1. Add comical image to entertain visitors
+1. Add button to make sure they are able to access this service directly
 
 ### CSS
 
 * Add styling on new elements
 
 ---
-## 8. Finishing Touches
+
+## 8. User story: More Information
+
+_As a site visitor, I can see new information and I am entertained by the comical images_
+
+> Assigned to `Yana`
+
+### Branch(es)
+
+1. Create an issue related to this user story on Github and assign self.
+1. Add a brach named `info-3-no-tracking`
+2. After html and css are done, commit
+3. Adjust `development-strategy.md` for next development, if needed
+4. Push the changes
+4. Pull request and merge it on Github
+
+### HTML
+
+1. Use section to explain how the service of DuckDuckGo work: no ads following you
+1. Add comical image to entertain visitors
+1. Add button to make sure they are able to access this service directly
+
+### CSS
+
+* Add styling on new elements
+
+---
+
+## 9. User story: More Information
+
+_As a site visitor, I want to see what else they put on this page_
+
+> Assigned to `Yana`
+
+### Branch(es)
+
+1. Create an issue related to this user story on Github and assign self.
+1. Add a brach named `encouragement-section`
+2. After html and css are done, commit
+3. Adjust `development-strategy.md` for next development, if needed
+4. Push the changes
+4. Pull request and merge it on Github
+
+### HTML
+
+1. Use section to encourage visitors to use this service
+1. Add comical image to entertain visitors
+1. Add button to make sure they are able to access this service directly
+1. Add internal nav bar to drive them back to the top of the page
+
+### CSS
+
+* Add styling on new elements
+
+---
+
+## 10. Finishing Touches
 
 _As developers we want everything looks nice_
 
