@@ -13,40 +13,40 @@ body{
 
 
 /*-----------------------------------------*/
-/*FOOTER*/
-#main-footer {
-    background-color: #e37151; /*temporary until the background is set later*/
+/*Global*/
+
+section {
+    height: 100vh;
 }
 
-/*Information*/
-#main-footer .container-information {
-    margin: auto;
-    padding: 1.5em;
+.info-container {
     display: flex;
     justify-content: center;
+    height: 50%;
 }
 
-#main-footer .information {
+.info-text {
     color: white;
     width: 700px;
+    height: 260px;
     text-align: center;
+    margin: auto;
 }
 
-#main-footer h2 {
+.info-text h2 {
     font-size: 44px;
     line-height: 48px;
     padding: 0;
     margin-bottom: 15px;
     margin-top: 16px;
 }
-
-#main-footer p {
+.info-text p {
     font-size: 20px;
     line-height: 28px;
     padding: 0.25em 0em;
 }
 
-#main-footer button {
+.info-text button {
     padding: 10px;
     background-color: black;
     opacity: 0.5;
@@ -55,3 +55,9 @@ body{
     border: none;
     border-radius: 8px;
 }
+
+/*Information 1*/
+#info-1 {
+    background-color: #58b792;
+}
+
