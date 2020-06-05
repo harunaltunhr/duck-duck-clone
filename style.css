@@ -21,17 +21,20 @@ body{
     margin: auto;
     display: flex;
     justify-content: center;
+    max-width: 1140px;
 }
 .box{
     height: 322px;
-    width: 260px;
+    width: 322px;
     text-align: justify;
     border: 1px solid;
-    background-color: #282828;
-    color: white;
+    background-color:#fff;
+  text-align: center;
     border-radius: 18px;
-    padding-left: 18px;
-    margin: 14px;
+    padding: 24px;
+    margin: 0 12px;
+border-radius: 18px;
+box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.2)
 }
 .box img{
     width: 110px;
