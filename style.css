@@ -2,7 +2,7 @@ body{
     font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
     color: #222;
     line-height: 1.6;
-    overflow: hidden;
+   
     position: relative;
     height: auto;
     min-height: 100%;
@@ -86,4 +86,60 @@ ul {
 .navbar_container a{
     text-decoration: none;
     color: #666
+}
+
+section {
+    height: 100vh;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.info-text {
+    color: white;
+    width: 700px;
+    height: 260px;
+    text-align: center;
+    margin: auto;
+}
+
+.info-text h2 {
+    font-size: 44px;
+    line-height: 48px;
+    padding: 0;
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+.info-text p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0.25em 0em;
+}
+
+.info-text button {
+    padding: 10px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+.info-images img {
+    height: 100%;
+}
+
+
+/*Information 1*/
+#info-1 {
+    background-color: #58b792;
+}
+
+/*Information 2*/
+#info-2 {
+    background-color: #f5a339;
 }
