@@ -10,6 +10,7 @@ body{
     margin: 0;
     background-color: #fff;
 }
+
 .searcharea{
   width: 100%;
   display: flex;
@@ -51,6 +52,7 @@ position: absolute;
   background-color: #66ad57;
   color: white;
 }
+r
 header{
   display: flex;
   flex-direction: column;
@@ -95,6 +97,7 @@ ul {
   font-size: 14px;
 }
 
+
 .dropdown-social,
 .dropdown-settings {
   position: relative;
@@ -133,6 +136,48 @@ ul {
 .dropdown-content-settings h2, li{
   margin-left: 12px;
 }
+
+
+
+.dropdown-social,
+.dropdown-settings {
+  position: relative;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.dropdown-content-social {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 130px;
+  height: 155px;
+  box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
+  left: 0px;
+  padding: 0px 0px;
+  padding-inline-start: 0px;
+  z-index: 250;
+  margin-top: 8px;
+  vertical-align: baseline;
+}
+.dropdown-content-settings {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 180px;
+  height: 932px;
+  box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
+  left: 0px;
+  padding: 0px 0px;
+  padding-inline-start: 0px;
+  z-index: 250;
+  margin-top: 8px;
+  vertical-align: baseline;
+}
+.dropdown-content-settings h2, li{
+  margin-left: 12px;
+}
+
 
 .dropdown-social:hover .dropdown-content-social {
   display: block;
