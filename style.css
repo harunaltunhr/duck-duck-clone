@@ -10,10 +10,83 @@ body{
     margin: 0;
     background-color: #fff;
 }
+.navbar_container a {
+  text-decoration: none;
+  margin: 4px;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
 
+.navbar_container {
+  float: right;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navlink {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  height: 20px;
+  font-size: 14px;
+}
 
-/*-----------------------------------------*/
-/*Global*/
+.dropdown-social,
+.dropdown-settings {
+  position: relative;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.dropdown-content-social {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 130px;
+  height: 155px;
+  box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
+  left: 0px;
+  padding: 0px 0px;
+  padding-inline-start: 0px;
+  z-index: 250;
+  margin-top: 8px;
+  vertical-align: baseline;
+}
+.dropdown-content-settings {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 180px;
+  height: 932px;
+  box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
+  left: 0px;
+  padding: 0px 0px;
+  padding-inline-start: 0px;
+  z-index: 250;
+  margin-top: 8px;
+  vertical-align: baseline;
+}
+.dropdown-content-settings h2, li{
+  margin-left: 12px;
+}
+
+.dropdown-social:hover .dropdown-content-social {
+  display: block;
+}
+.dropdown-settings:hover .dropdown-content-settings {
+  display: block;
+}
+.dropdown-settings h2{
+    font-size: 0.75em;
+    color: #888;
+}
+.navbar_container a{
+    text-decoration: none;
+    color: #666
+}
 
 section {
     height: 100vh;
