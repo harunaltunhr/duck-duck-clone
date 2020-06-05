@@ -13,6 +13,9 @@ body{
 /* specialities part */
 #content-info{
     text-align: center;
+    background-color: #282828;
+    color: white;
+    padding: 20px 0px 20px;
 }
 .get-seamless{
     padding-bottom: 0px;
@@ -27,7 +30,7 @@ ul{
 .space{
     margin-left: 25px;
 }
-.add-duck-duck{
+.link-bnt button{
     color: #EEEEEE;
     padding: 10px 15px;
     border-radius: 10px;
