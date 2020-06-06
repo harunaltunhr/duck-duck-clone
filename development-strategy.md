@@ -12,7 +12,8 @@ This project is good for those who want to train themselves in making website us
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 Duck Duck Clone Wireframe  
-![wireframe](Images/wireframe_duck.png)
+![wireframe](Images/wireframe-top-page.png)
+![wireframe](Images/wireframe-bottom-page.png)
 
 ## 0. Set-Up
 

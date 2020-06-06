@@ -1,14 +1,17 @@
 <!DOCTYPE html>
+<html lang="en">
 
 
 <head>
-  <title>DuckDuckGo — Privacy, simplified.</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <html lang="en">
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'>
-  </script>
+    <title>DuckDuckGo — Privacy, simplified.</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/flexgrid.css">
+    <script src="https://kit.fontawesome.com/f8746982fe.js" crossorigin="anonymous"></script>
+    
+    <!-- Leave this here!  It renders the review buttons  -->
+    <script src='./evaluation/init.js'>
+    </script>
 </head>
 
 <body>
@@ -20,7 +23,6 @@
         <div class="dropdown-content-social">
           <ul>
             <div class="navlink">
-
               <img class="twitterlogo logolink" src="./Images/twitter.svg" alt="Twitter">
               <li> <a href="https://twitter.com/duckduckgo">Twitter</a></li>
             </div>
@@ -40,7 +42,7 @@
         </div>
       </div>
       <div class="dropdown-settings">
-        <img src="https://raw.githubusercontent.com/duckduckgo/duckduckgo-styles/master/icons/src/svgs/menu.svg">
+        <img src="https://raw.githubusercontent.com/duckduckgo/duckduckgo-styles/master/icons/src/svgs/menu.svg" alt="duck duck">
         <div class="dropdown-content-settings">
           <div class="infonavbar settings">
             <h2>SETTINGS</h2>
@@ -93,12 +95,12 @@
     <div class="headerlogosearch">
       <div class="main-header">
         <!--Img should link another section-->
-        <a href="#"><img src="./Images/logo_homepage.normal.v108.svg"></a>
+        <a href="#"><img src="./Images/logo_homepage.normal.v108.svg" alt="DuckduckgoLogo"></a>
       </div>
       <div class="searcharea">
         <div class="search-bar">
           <form method="GET" action="https://duckduckgo.com/">
-            <input type="text" name="q" class="search-field" placeholder="Search the web without being tracked" />
+            <input type="text" name="top" class="search-field" placeholder="Search the web without being tracked" />
             <button type="submit" class="search-button"><img src="https://img.icons8.com/android/24/000000/search.png"
                 alt="ducksearch" /> </button>
           </form>
@@ -109,131 +111,126 @@
 
   <!--Specialities -->
   <div id="content-info">
-    <h1>Tired of being tracked online? We can help.</h1>
+    <h2>Tired of being tracked online? We can help.</h2>
     <p class="get-seamless">Get seamless privacy protection on your browser for free with one download:</p>
     <div class="enumeration">
       <ul>
         <li>
-          <i class="fa-check-circle-o"></i>
-          <span class="space">Private Search</span>
+          <i class="fas fa-check-circle"></i>
+          <span class="bold">Private Search</span>
         </li>
         <li>
-          <i class="fa-check-circle-o"></i>
-          <span class="space">Tracker Blocking
+          <i class="fas fa-check-circle"></i>
+          <span class="bold">Tracker Blocking
           </span>
         </li>
         <li>
-          <i class="fa-check-circle-o"></i>
-          <span class="space">Site Encryption</span>
+          <i class="fas fa-check-circle"></i>
+          <span class="bold">Site Encryption</span>
         </li>
       </ul>
     </div>
     <div class="link-bnt">
-      <button type="text" name="button">Add DuckDuckGo to Chrome</button>
+      <button type="button">Add DuckDuckGo to Firefox</button>
     </div>
     <div class="rating">
-      Stars
-      <span>Rated 4.4/5</span>
+      <span class="small">Rated 4.4/5</span>
     </div>
-    <p>Privacy Protection For Any Device</p>
+    <p class="bold">Privacy Protection For Any Device</p>
   </div>
-  <!--instructions branch-->
 
+  <!--instructions BOXES-->
   <section id="features-boxes">
-    <h2>How it Works</h2>
-    <div class="container">
-      <div id="first-box" class="box">
-        <img src="Images/laptop.svg" alt="">
-        <h3>Add to Chrome</h3>
-        <p>Just a few clicks to install, and you're ready to go.It's that easy.</p>
-      </div>
-      <div id="snd-box" class="box">
-        <img src="Images/search.svg" alt="">
-        <h3>Browse as Usual</h3>
-        <p>We'll block hidden trackers and encrypt connections to keep you more private.</p>
-      </div>
-      <div id="third-box" class="box">
-        <img src="Images/mobile.svg" alt="">
-        <h3>Enjoy Peace of Mind</h3>
-        <p>DuckDuckGo Privacy Essentials protects your privacy, wherever the Internet takes you.</p>
+    <div>
+      <h2>How it Works</h2>
+    </div>
+    <div class="box-container">
+      <div class="box-wrapper">
+          <div id="first-box" class="box">
+              <img src="Images/laptop.svg" alt="">
+              <h3>Add to Firefox</h3>
+              <p>Just a few clicks to install, and you're ready to go. It's that easy.</p>
+          </div>
+          <div id="snd-box" class="box">
+            <img src="Images/search.svg" alt="">
+            <h3>Browse as Usual</h3>
+            <p>We'll block hidden trackers and encrypt connections to keep you more private.</p>
+            </div>
+          <div id="third-box" class="box">
+            <img src="Images/mobile.svg" alt="">
+            <h3>Enjoy Peace of Mind</h3>
+            <p>DuckDuckGo Privacy Essentials protects your privacy, wherever the Internet takes you.</p>
+          </div>
       </div>
     </div>
   </section>
-</body>
-<!--Information 1-->
-<section id="info-1">
-  <div class="info-container">
-    <div class="info-text">
-      <h2>We don't store your <br> personal information. Ever.</h2>
-      <p>Our privacy policy is simple: we don't collect <br> or share any of your personal information.</p>
-      <button type="button">Add DuckDuckGo to Firefox</button>
-    </div>
-  </div>
-  <div class="info-container">
-    <div class="info-images">
-      <img src="./Images/1-monster-v2--pre-animation.svg" alt="monster animation">
-    </div>
-  </div>
-</section>
 
-<!--Information 2-->
-<section id="info-2">
-  <div class="info-container">
-    <div class="info-text">
-      <h2>We don't follow you <br> around with ads</h2>
-      <p>We don't store your search history. We therefore have nothing <br> to sell to advertisers that track you
-        across the internet.</p>
-      <button type="button">Add DuckDuckGo to Firefox</button>
+  <!--Information 1-->
+  <section id="info-1">
+    <div class="info-container">
+      <div class="info-text">
+        <h2>We don't store your <br> personal information. Ever.</h2>
+        <p>Our privacy policy is simple: we don't collect <br> or share any of your personal information.</p>
+        <button type="button">Add DuckDuckGo to Firefox</button>
+      </div>
     </div>
-  </div>
-  <div class="info-container">
-    <div class="info-images">
+    <div class="info-container">
+        <img src="./Images/1-monster-v2--pre-animation.svg" alt="monster animation">
+    </div>
+  </section>
+
+  <!--Information 2-->
+  <section id="info-2">
+    <div class="info-container">
+      <div class="info-text">
+        <h2>We don't follow you <br> around with ads</h2>
+        <p>We don't store your search history. We therefore have nothing <br> to sell to advertisers that track you
+          across the internet.</p>
+        <button type="button">Add DuckDuckGo to Firefox</button>
+      </div>
+    </div>
+    <div class="info-container">
       <img src="./Images/2-ghost-v2.svg" alt="ghost no ghost ads following">
     </div>
-  </div>
-</section>
+  </section>
 
-<!--Information 3-->
-<section id="info-3">
-  <div class="info-container">
-    <div class="info-text">
-      <h2>We don't follow you <br> around with ads</h2>
-      <p>We don't store your search history. We therefore have nothing <br> to sell to advertisers that track you across
-        the internet.</p>
-      <button type="button">Add DuckDuckGo to Firefox</button>
-    </div>
-  </div>
-  <div class="info-container">
-    <div class="info-images">
-      <img src="./Images/3-bathtub-v2--pre-animation.svg" alt="ghost no ghost ads following">
-    </div>
-  </div>
-</section>
+  <!--Information 3-->
+  <section id="info-3">
+      <div class="info-container">
+         <div class="info-text">
+             <h2>We don't follow you <br> around with ads</h2>
+             <p>We don't store your search history. We therefore have nothing <br> to sell to advertisers that track you across
+               the internet.</p>
+             <button type="button">Add DuckDuckGo to Firefox</button>
+         </div>
+      </div>
+      <div class="info-container">
+          <img src="./Images/3-bathtub-v2--pre-animation.svg" alt="ghost no ghost ads following">
+      </div>
+  </section>
 
-<!--Closing: FILL OUT a href BACK TO SEARCH ON FINAL TOUCHES-->
-<footer id="closing">
-  <div class="closing-nav-bar">
-    <div class="dismiss-search">
-      <ul>
-        <li>Dismiss Forever</li>
-        <li><span class="separator">|</span></li>
-        <li><a href="">Back to Search</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="closing-container">
-    <div class="closing-text">
-      <h2>Switch to DuckDuckGo and <br> take back your privacy!</h2>
-      <p>No tracking, no ads targeting, just searching.</p>
-      <button type="button">Add DuckDuckGo to Firefox</button>
-    </div>
-  </div>
-  <div class="closing-container">
-    <div class="closing-images">
-      <img src="./Images/4-alpinist-v2.svg" alt="alpinist">
-    </div>
-  </div>
-</footer>
+  <!--Closing: FILL OUT a href BACK TO SEARCH ON FINAL TOUCHES-->
+  <footer id="closing">
+      <div class="closing-nav-bar">
+          <div class="dismiss-search">
+            <ul>
+                <li>Dismiss Forever</li>
+                <li><span class="separator">|</span></li>
+                <li><a href="#top">Back to Search</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="closing-container">
+          <div class="closing-text">
+            <h2>Switch to DuckDuckGo and <br> take back your privacy!</h2>
+            <p>No tracking, no ads targeting, just searching.</p>
+            <button type="button">Add DuckDuckGo to Firefox</button>
+          </div>
+      </div>
+      <div class="closing-container">
+            <img src="./Images/4-alpinist-v2.svg" alt="alpinist">
+      </div>
+  </footer>
 </body>
 
 </html>
