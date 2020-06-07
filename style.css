@@ -93,7 +93,8 @@ margin: 4px;
 
 ul {
 list-style: none;
-padding-inline-start: 0px;
+padding: 0px;
+
 }
 
 .navbar_container {
@@ -127,7 +128,7 @@ height: 155px;
 box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
 left: 0px;
 padding: 0px 0px;
-padding-inline-start: 0px;
+
 z-index: 250;
 margin-top: 8px;
 vertical-align: baseline;
@@ -142,7 +143,7 @@ height: 932px;
 box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
 left: 0px;
 padding: 0px 0px;
-padding-inline-start: 0px;
+
 z-index: 250;
 margin-top: 8px;
 vertical-align: baseline;
@@ -168,7 +169,7 @@ height: 155px;
 box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
 left: 0px;
 padding: 0px 0px;
-padding-inline-start: 0px;
+
 z-index: 250;
 margin-top: 8px;
 vertical-align: baseline;
@@ -183,7 +184,7 @@ height: 932px;
 box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
 left: 0px;
 padding: 0px 0px;
-padding-inline-start: 0px;
+
 z-index: 250;
 margin-top: 8px;
 vertical-align: baseline;
